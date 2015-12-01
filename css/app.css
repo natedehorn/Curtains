@@ -1,0 +1,29 @@
+.curtain-1 {
+	position: absolute;
+	height: 101vh;
+	width: 50vw;
+	z-index: 90;
+	background-image: url(../img/curtain-1.jpg);
+	background-size: 100%;
+}
+
+.curtain-2 {
+	position: absolute;
+	height: 101vh;
+	width: 50vw;
+	z-index: 90;
+	background-image: url(../img/curtain-2.jpg);
+	background-size: 100%;
+	left: 50%;
+}
+
+.overlay {
+	z-index: 99;
+	height: 100vh;
+	width: 100vw;
+	background-color: (0,0,0,0.1);
+	position: absolute;
+	text-align: center;
+	color: white;
+	padding-top: 35vh;
+}
